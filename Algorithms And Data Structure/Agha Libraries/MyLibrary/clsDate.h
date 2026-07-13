@@ -1207,5 +1207,10 @@ public:
     {
         cout << DateToString() << endl;
     }
+
+//Append..
+
+
+
 };
 
