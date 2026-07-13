@@ -223,4 +223,8 @@ public:
 		return Text;
 	}
 
+
+
+//Append...
+
 };
