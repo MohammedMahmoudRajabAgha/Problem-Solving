@@ -52,7 +52,7 @@ public:
         return IsOverLapPeriods(*this, Period2);
     }
 
-    static void Print()
+     void Print()
     {
         cout << "Period Start : ";
         StartDate.Print();
