@@ -52,6 +52,19 @@ public:
         return IsOverLapPeriods(*this, Period2);
     }
 
+    static void Print()
+    {
+        cout << "Period Start : ";
+        StartDate.Print();
+
+
+        cout << "Period End : ";
+        EndDate.Print();
+
+
+    }
+
+//Append...
 
 
     static int PeriodLengthInDays(clsPeriod Period, bool IncludingEndDay = false)
@@ -112,16 +125,6 @@ public:
         return CountOverLapDays(*this, Period2);
     }
 
-    void Print()
-    {
-        cout << "Period Start : ";
-        StartDate.Print();
-
-
-        cout << "Period End : ";
-        EndDate.Print();
-
-
-    }
+    
 
 };
